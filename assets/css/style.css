@@ -191,7 +191,7 @@ html {
   position: relative;
   margin-top: 46px;
   padding-top: 50%;
-  background: url("/assets/img/slider/slider1.jpg") top center / cover no-repeat;
+  background: url("../img/slider/slider1.jpg") top center / cover no-repeat;
 }
 #slider .text-content {
   position: absolute;
@@ -199,12 +199,13 @@ html {
   bottom: 47px;
   text-align: center;
   color: #fff;
+  text-shadow: 0 0 2px #000;
 }
 #slider .text-heading {
   font-weight: 500;
   font-size: 24px;
 }
-#text-description {
+#slider .text-description {
   font-size: 15px;
   margin-top: 25px;
 }
